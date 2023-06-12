@@ -17,7 +17,7 @@ const FutureAcid = () => {
                   src={Leftimg}
                   alt="icon"
                   className="lg:w-[450px] w-[250px]"
-                  style={{ animation: "bounce 1s infinite alternate" }}
+                  // style={{ animation: "bounce 1s infinite alternate" }}
                 />
               </div>
               <div className="text-left p-4 w-full lg:w-[50%] ">
