@@ -1,0 +1,135 @@
+[
+  {
+    "title": "Phase 1: Development and Testing",
+    "phase": [
+      {
+        "des": "Market Research & Targeting",
+        "icon": "../../../assets/media/phase/phaseIcon/p1.png"
+      },
+      {
+        "des": "Expert Team Assembly",
+        "icon": "../../../assets/media/phase/phaseIcon/p2.png"
+      },
+      {
+        "des": "AI  Model Research",
+        "icon": "../../../assets/media/phase/phaseIcon/p3.png"
+      }
+    ],
+    "line": false,
+    "value": 1,
+    "borderColor": "#299BEE",
+    "bgColor": "#0D3779",
+    "gradient": "linear-gradient(65deg, #68DBF2 0.01%, #509CF5 100%)"
+  },
+  {
+    "title": "Phase 2: Launch and User Adoption",
+    "phase": [
+      {
+        "des": "Token Presale Launch",
+        "icon": "../../../assets/media/phase/phaseIcon/p1.png"
+      },
+      {
+        "des": "Token distribution: Presale & TGE",
+        "icon": "../../../assets/media/phase/phaseIcon/p2.png"
+      },
+      {
+        "des": "Secure Exchange Partnerships",
+        "icon": "../../../assets/media/phase/phaseIcon/p3.png"
+      }
+    ],
+    "line": false,
+    "value": 2,
+    "borderColor": "#328291",
+    "bgColor": "#153F6D",
+    "gradient": "linear-gradient(65deg, #67E9F1 0.01%, #24E795 100%)"
+  },
+  {
+    "title": "Phase 3: Development and Testing",
+    "phase": [
+      {
+        "des": "Alpha platform release",
+        "icon": "../../../assets/media/phase/phaseIcon/p1.png"
+      },
+      {
+        "des": "Personalized AI personas",
+        "icon": "../../../assets/media/phase/phaseIcon/p2.png"
+      },
+      {
+        "des": "AI Algorithm Development",
+        "icon": "../../../assets/media/phase/phaseIcon/p3.png"
+      },
+      {
+        "des": "User testing and iteration",
+        "icon": "../../../assets/media/phase/phaseIcon/p3.png"
+      },
+      {
+        "des": "Smart Contract/NFT Development",
+        "icon": "../../../assets/media/phase/phaseIcon/p3.png"
+      },
+      {
+        "des": "User feedback iteration",
+        "icon": "../../../assets/media/phase/phaseIcon/p3.png"
+      },
+      {
+        "des": "Mobile app release",
+        "icon": "../../../assets/media/phase/phaseIcon/p3.png"
+      }
+    ],
+    "line": false,
+    "value": 3,
+    "borderColor": "#7B51C7",
+    "bgColor": "#1E2972",
+    "gradient": "linear-gradient(65deg, #BB65FF 0%, #4C6FFF 100%)"
+  },
+  {
+    "title": "Phase 4: Scaling and Monetization",
+    "phase": [
+      {
+        "des": "Language & Cultural Expansion",
+        "icon": "../../../assets/media/phase/phaseIcon/p1.png"
+      },
+      {
+        "des": "Enhanced integration with blockchain",
+        "icon": "../../../assets/media/phase/phaseIcon/p2.png"
+      },
+      {
+        "des": "Enhanced AI models and algorithms",
+        "icon": "../../../assets/media/phase/phaseIcon/p3.png"
+      },
+      {
+        "des": "SDK Launch: Empowering Developers",
+        "icon": "../../../assets/media/phase/phaseIcon/p3.png"
+      }
+    ],
+    "line": false,
+    "value": 4,
+    "borderColor": "#EDC34D",
+    "bgColor": "#1E2E57",
+    "gradient": "linear-gradient(65deg, #FFC656 0%, #F16063 100%)"
+  },
+  {
+    "title": "Phase 5: Future Innovations",
+    "phase": [
+      {
+        "des": "Global User Scaling",
+        "icon": "../../../assets/media/phase/phaseIcon/p1.png"
+      },
+      {
+        "des": "Strategic Partnerships",
+        "icon": "../../../assets/media/phase/phaseIcon/p2.png"
+      },
+      {
+        "des": "Global Impact Campaign",
+        "icon": "../../../assets/media/phase/phaseIcon/p3.png"
+      },
+      {
+        "des": "Foundation for Acidbase created",
+        "icon": "../../../assets/media/phase/phaseIcon/p3.png"
+      }
+    ],
+    "line": true,
+    "value": 5,
+    "borderColor": "#C25184",
+    "bgColor": "#2C2864"
+  }
+]

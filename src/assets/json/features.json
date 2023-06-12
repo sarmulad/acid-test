@@ -1,0 +1,27 @@
+[
+  {
+    "icon": "src/assets/Features/frame1.png",
+    "heading": "Connect with the past",
+    "detail": "Engage in meaningful conversations with digitally preserved loved ones unlocking insights into thoughts, feelings, and experiences."
+  },
+  {
+    "icon": "../../../assets/media/Features/Frame2.png",
+    "heading": "Share wisdom with future generations",
+    "detail": "Allow descendants to interact with their ancestors and benefit from their knowledge, experience, and guidance."
+  },
+  {
+    "icon": "../../../assets/media/Features/Frame3.png",
+    "heading": "Personalized learning",
+    "detail": "Gain tailored advice and mentorship from historical figures or innovative thinkers, fostering personal growth and development."
+  },
+  {
+    "icon": "../../../assets/media/Features/Frame1.png",
+    "heading": "Ethical implications",
+    "detail": "Explore the moral philosophical and societal questions surrounding AI immortality, driving important conversations and research."
+  },
+  {
+    "icon": "../../assets/media/Features/Frame5.png",
+    "heading": "Enhanced scientific research",
+    "detail": "Utilize the digital representation of individuals to better understand the complex interplay between genetics, personality and human experience. personality and human experience."
+  }
+]

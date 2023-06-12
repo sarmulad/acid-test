@@ -1,0 +1,198 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "hogira";
+  src: url("./assets/fonts/Hogira/Hogira-SemiBold.otf") format("opentype");
+}
+
+.hogira {
+  font-family: "hogira", sans-serif;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "hogira light";
+  src: url("./assets/fonts/Hogira/Hogira-Bold.otf") format("opentype");
+}
+
+.hogira {
+  font-family: "hogira";
+}
+.hogira-light {
+  font-family: "hogira light";
+  /* font-weight: 100; */
+}
+
+@font-face {
+  font-family: "plus jakarta sans";
+  src: url("./assets/fonts/Plus Jakarta Sans/static/PlusJakartaSans-Regular.ttf")
+    format("truetype");
+}
+
+.plus-jakarta-sans {
+  font-family: "plus jakarta sans";
+}
+
+@font-face {
+  font-family: "plus jakarta sans";
+  src: url("./assets/fonts/Plus Jakarta Sans/static/PlusJakartaSans-Light.ttf")
+    format("truetype");
+}
+
+.plus-jakarta-sans-light {
+  font-family: "plus jakarta sans";
+}
+.swiper {
+  width: 295px;
+  height: 100%;
+  margin-top: 0px;
+}
+
+@media only screen and (min-width: 375px) {
+  .swiper {
+    width: 340px;
+    height: 100%;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .swiper {
+    width: 400px;
+    height: 450px;
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .swiper {
+    width: 500px;
+    height: 400px;
+    margin-top: 0px;
+  }
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  object-fit: cover;
+}
+.cardhover {
+  background: linear-gradient(#0a1026, #0a1026) padding-box,
+    linear-gradient(
+        261.36deg,
+        #16263f -6.06%,
+        rgba(148, 180, 231, 0.69) 104.26%
+      )
+      border-box;
+  border-radius: 16px !important;
+  border: 2px solid transparent !important;
+}
+.cardhover:hover {
+  background: linear-gradient(
+    45deg,
+    rgba(50, 247, 170, 0.39) 10.55%,
+    rgba(29, 71, 255, 0.225) 89.46%
+  );
+}
+
+button {
+  background: linear-gradient(65deg, #32f7aa -18.2%, #1d47ff 96.38%);
+}
+
+.bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.button-slant {
+  --slant: 1.3em; /* control the slanted corners */
+
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  clip-path: polygon(
+    var(--slant) 0,
+    100% 0,
+    100% calc(100% - var(--slant)),
+    calc(100% - var(--slant)) 100%,
+    0 100%,
+    0 var(--slant)
+  );
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.words{
+  overflow:hidden !important;
+}
+.wordAnimate{
+  animation: spin_words 6s infinite;
+  padding-right: 20px;
+  color:white;
+}
+
+@keyframes spin_words{
+  10%{
+    transform: translateY(-112%);
+  }
+  25%{
+    transform: translateY(-100%);
+  }
+  35%{
+    transform: translateY(-212%);
+  }
+  50%{
+    transform: translateY(-200%);
+  }
+  60%{
+    transform: translateY(-312%);
+  }
+  75%{
+    transform: translateY(-300%);
+  }
+  85%{
+    transform: translateY(-412%);
+  }
+  100%{
+    transform: translateY(-400%);
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 0,
+    "label": [
+      "Team",
+      "Strategic Reserve",
+      "Public Sale ",
+      "Community Rewards ",
+      "Beta/Testnet Incentives",
+      "Advisors",
+      "Grants",
+      "Partnerships",
+      "Marketing",
+      "Liquidity Provision"
+    ],
+    "value": [15, 15, 30, 10, 2.5, 5, 6, 6, 8, 2.5],
+    "color": [
+      "#F1548E",
+      "#F97316",
+      "#1251A0",
+      "#22C55E",
+      "#2271EB",
+      "#702B91",
+      "#F64A73",
+      "#22C55E",
+      "#2CDCB8",
+      "#2B29AE"
+    ]
+  }
+]

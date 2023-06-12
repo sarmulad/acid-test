@@ -1,0 +1,42 @@
+[
+  {
+    "icon": "../../../assets/media/Features/Frame6.png",
+    "heading": "Purchase AcidBase Tokens",
+    "detail": "Acidbase tokens available for purchase with ETH during presale on a secure platform with a user-friendly interface."
+  },
+  {
+    "icon": "../../../assets/media/Features/Frame7.png",
+    "heading": "Connect wallet to the Acidbase Platform",
+    "detail": "Connect your wallet after token purchase for seamless management and access to AI-driven digital persona creation on Acidbase."
+  },
+  {
+    "icon": "../../../assets/media/Features/Frame8.png",
+    "heading": "Share Personal Data and Train Your AI Model",
+    "detail": "Submit personal data, chat, and refine AI model to create an accurate digital persona of your thoughts, emotions, and personality."
+  },
+  {
+    "icon": "../../../assets/media/Features/Frame9.png",
+    "heading": "Feature Extraction and Data Representation",
+    "detail": "Acidbase utilizes advanced NLP and computer vision models to extract features from text, image, and audio data, capturing your essence."
+  },
+  {
+    "icon": "../../../assets/media/Features/Frame9.png",
+    "heading": "Model Training and Personalization",
+    "detail": "Acidbase personalizes AI models using user-specific data, employing transfer learning for unique characteristics and continuous improvement."
+  },
+  {
+    "icon": "../../../assets/media/Features/Frame9.png",
+    "heading": "Model Storage, Deployment, and Blockchain Integration",
+    "detail": "AI models containerized with Docker are deployed on AWS or GCP, while Ethereum blockchain ensures secure data storage and access control."
+  },
+  {
+    "icon": "../../../assets/media/Features/Frame9.png",
+    "heading": "Tokenization and Access to Your Trained AI Model",
+    "detail": "Tokenize your AI model as a unique NFT, ensuring secure access to your AI-driven digital persona and managing your digital legacy."
+  },
+  {
+    "icon": "../../../assets/media/Features/Frame9.png",
+    "heading": "User Interaction and Engagement",
+    "detail": "Engage with preserved loved ones, share wisdom, and learn from historical figures through Acidbase's AI interface."
+  }
+]
