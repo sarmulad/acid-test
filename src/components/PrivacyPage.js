@@ -63,7 +63,7 @@ const PrivacyData = [
     {
         id:9,
         header:"9. HOW YOU CAN REQUEST DATA DELETION   ",
-        pgh:"Please email us via help@tiacoin.io and provide your username, sign-in method, and a screenshot of your account page. Our customer service will deal with your request as soon as possible.        "
+        pgh:"Please email us via contact@acidbase.io and provide your username, sign-in method, and a screenshot of your account page. Our customer service will deal with your request as soon as possible.        "
     },
     {
         id:10,
@@ -80,9 +80,8 @@ const PrivacyData = [
     {
         id:12,
         header:"12. CONTACT ",
-        pgh:"Any inquiries about your rights under this Privacy Policy, or any other matters regarding your privacy, can be directed to help@tiacoin.io . You have the right to request access to and/or correction of your personal data held by us. If you wish to make such request, please contact us by email marking “Attention: Personal Data Access / Correction Request” on your correspondence. ",
-        pgh1:"If there is any inconsistency between the English and Chinese versions of this Privacy Policy, the English version will prevail. ",
-        pgh2:"This Privacy Policy was last updated on 04 May 2022",
+        pgh:"Any inquiries about your rights under this Privacy Policy, or any other matters regarding your privacy, can be directed to contact@acidbase.io.You have the right to request access to and/or correction of your personal data held by us. If you wish to make such request, please contact us by email marking “Attention: Personal Data Access / Correction Request” on your correspondence. ",
+        pgh2:"This Privacy Policy was last updated on 12 June 2023",
 
     },
 ]
