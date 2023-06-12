@@ -4,7 +4,7 @@ import Button from "../../UI-elements/Button";
 
 const OurTeam = () => {
   return (
-    <div className=" flex justify-center text-center  lg:flex-row flex-col mt-24 lg:mt-48 ">
+    <div className=" flex justify-center text-center  lg:flex-row flex-col mt-24 lg:mt-48 " id="team">
       <div className="w-full ">
         <div className=" flex flex-col lg:items-start items-center text-center lg:items-left">
           <OurTeamHeader

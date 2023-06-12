@@ -34,6 +34,31 @@ const cards = [
   },
 ];
 
+const footerLink = [
+  {
+    id:1,
+    menu:"About Us",
+    links: "#"
+  },
+  {
+    id:2,
+    menu:"Blog",
+    links: "#"
+  },
+  {
+    id:3,
+    menu:"Careers",
+    links: "#"
+  },
+  {
+    id:4,
+    menu:"Privacy Policy",
+    links: "/privacy"
+  },
+  
+]
+
+
 const Footer = () => {
   const onError = (e: any) => {
     e.target.onerror = null;
@@ -82,13 +107,15 @@ const Footer = () => {
               <div className="opacity-60 border-2 border-paragraph "></div>
             </div>
 
-            {["About us", "Blog", "Careers"].map((item, i) => {
+            {footerLink.map(({id, menu, links}) => {
               return (
                 <div
                   className="mt-5 text-center lg:text-left text-[16px] text-paragraph font-plus-jakarta-sans opacity-90"
-                  key={i}
+                  key={id}
                 >
-                  {item}
+                  <a href={links}>
+                   {menu}
+                  </a>
                 </div>
               );
             })}
@@ -102,7 +129,7 @@ const Footer = () => {
               <div className="opacity-60 border-2 border-paragraph "></div>
             </div>
             <div className="mt-2 p-1">
-              <p className="text-[16px] text-paragraph font-normal w-full lg:w-[80%] ">
+              <p className="text-[15px] text-center lg:text-start text-paragraph font-normal w-full lg:w-[80%] ">
                 Acidbase token (ACB) will be used to access services and
                 products offered by the Acidbase platform.{" "}
               </p>

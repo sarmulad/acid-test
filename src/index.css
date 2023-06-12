@@ -9,9 +9,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background:#0A0F20;
+  
 }
+html{
+  overflow-x:hidden;
+  scroll-behavior: smooth !important;
 
-
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -123,7 +128,7 @@ code {
   );
 }
 
-button {
+.bg-button {
   background: linear-gradient(65deg, #32f7aa -18.2%, #1d47ff 96.38%);
 }
 
@@ -151,7 +156,13 @@ button {
     0 var(--slant)
   );
 }
-
+.gradient-text{
+  background: linear-gradient(65deg, #32F7AA -18.2%, #1D47FF 96.38%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
 @keyframes bounce {
   0% {
     transform: translateY(0);

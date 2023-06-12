@@ -2,6 +2,7 @@ import { ReactNode } from "react";
 
 interface IProps {
   className?: string;
+  id?: string;
   isCentered?: boolean;
   children: ReactNode;
 }
@@ -9,6 +10,7 @@ interface IProps {
 const Flex = (props: IProps) => {
   return (
     <div
+      id={props.id}
       className={`flex ${props.className} ${
         props.isCentered ? "justify-center items-center" : ""
       } `}

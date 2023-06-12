@@ -8,7 +8,7 @@ import Heading from "../../UI-elements/SectionHeading";
 
 const Token = () => {
   return (
-    <Flex isCentered className="flex-col mt-24 lg:mt-48 w-full">
+    <Flex isCentered className="flex-col mt-24 lg:mt-48 w-full" id="tokenomics">
       <Heading>TOKENOMICS</Heading>
       <div className="flex w-full flex-col lg:flex-row justify-center lg:justify-between items-center lg:mt-16">
         <div className="flex-col w-full justify-center items-center lg:items-start lg:justify-start flex">

@@ -5,7 +5,7 @@ import Heading from "../UI-elements/SectionHeading";
 
 function Features() {
   return (
-    <Flex className="flex-col pb-10 mt-24 lg:mt-48" isCentered={true}>
+    <Flex className="flex-col pb-10 mt-24 lg:mt-48" isCentered={true} id="features">
       <Flex className="flex-col" isCentered={true}>
         <Flex className=" text-center flex-col mb-6 lg:mb-12" isCentered={true}>
           <Heading>FEATURES</Heading>

@@ -11,10 +11,16 @@ import NewsLetter from "../components/NewsLetter";
 import FAQs from "../components/FaQ";
 import Container from "../UI-elements/Container";
 import FutureAI from "../components/FutureAI";
+import Cookies from "../components/Cookies";
+import Header from "../components/header/Header";
+
 
 function Home() {
   return (
+    <>
+    <Header/>
     <div className="bg-[#0A1026] pt-10">
+      <Cookies/>
       <Container>
         <FutureAI />
         <Features />
@@ -31,6 +37,7 @@ function Home() {
       </Container>
       <Footer />
     </div>
+    </>
   );
 }
 
