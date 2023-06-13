@@ -1,5 +1,5 @@
 import React from "react";
-import HexaImg from "../assets/media/logos/right_hexa.png";
+import HexaImg from "../assets/media/logos/ill.jpg";
 import Flex from "../UI-elements/Flex";
 import futureAIData from "../assets/json/futureAIData.json";
 import Button from "../UI-elements/Button";
